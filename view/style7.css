@@ -1,0 +1,113 @@
+#container{
+  background-color: lightgrey;
+}
+
+#div-h1{
+/* L'image est positionnée en fond et est centrée */
+background: url("pictures/rireetecrire2.png") ; /*no-repeat center center fixed*/
+/* Ajout de la propriété avec les préfixes pour tous les moteurs de rendu */
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: 5em;
+}
+
+h2{
+  color:cornflowerblue !important;
+  font-family: cursive !important;
+  text-shadow: 1px 1px white !important;
+}
+h1{
+  font-family: cursive;
+  font-size:3em !important;
+  text-shadow: 1px 1px white;
+  /*color:darkslategrey;*/
+  color:darkred;
+}
+
+#div-hello, #div-hello-footer, #div-hello-footer{
+  color : white ;
+  background-color: red ;
+}
+#div-hello-footer{
+  margin-top: 2em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.button{
+  width: 8em;
+  margin: auto;
+  margin-top: 0.2em;
+
+  color: white;
+  background-color: #6495ED;
+  text-shadow: 1px 1px black;
+
+  text-decoration: none;
+  text-align: center;
+  padding: 2px;
+  border: 3px outset #c0c0c0;
+}
+.button:hover{
+  background-color:#063227;
+  color: white;
+  text-decoration: none;
+
+  /*background-image: url(aqua.jpg);*/
+  border: 3px inset #c0c0c0;
+}
+
+
+label:not(#id-label-comment-content, #id-label-comment-article){
+  width: 7em !important; /*100px*/
+  display: inline-block;
+  margin: 5px 0;
+  text-align: end;
+  padding-right: 1em;
+}
+select, input{
+  width: 15em !important; /*300px*/
+  display: inline-block;
+  margin: 5px 0;
+}
+select{
+  margin-left: -0.25em !important;
+}
+
+/* form_comment_modif and form_article_modif : */
+
+#label-showcase, #label-noshowcase, #label-nopublication, #label-publication,
+#label-nopublication2, #label-publication2 
+{
+  width: 4em !important; /*300px*/
+  display: inline-block;
+  margin: 5px 0;
+  text-align:left;
+}
+#noshowcase, #showcase, #nopublication, #publication,
+#publication2, #nopublication2
+{
+  width: 2em !important; /*300px*/
+  display: inline-block;
+  margin: 5px 0;
+}
+
+
+.div-alert{
+  font-size: 1.2em !important;
+  color: red !important;
+}
+/* admin articles list : */
+.div-of-rows > div:nth-of-type(2n+1)
+{
+  background-color: white;
+}
+
+
+.photo-article {
+  width: 100%;
+  height: auto;
+  display: block;
+}
